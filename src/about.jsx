@@ -1,3 +1,4 @@
+import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 
 function About(props) {
@@ -8,4 +9,4 @@ function About(props) {
   )
 }
 
-export default About;
+export default hot(About);

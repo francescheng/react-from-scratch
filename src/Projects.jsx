@@ -1,6 +1,7 @@
+import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 import Thumbnail from './thumbnail.jsx';
-import './stylesheets/app.scss';
+import './App.scss';
 
 function Projects(props) {
   return (
@@ -30,4 +31,4 @@ function Projects(props) {
   )
 }
 
-export default Projects;
+export default hot(Projects);

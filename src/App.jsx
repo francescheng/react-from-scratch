@@ -1,22 +1,36 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component} from "react";
 import "./App.scss";
+import {
+  Route,
+  NavLink,
+  HashRouter
+} from "react-router-dom";
+import Projects from "./Projects.jsx";
+import Personal from "./personal.jsx";
+import About from "./about.jsx";
+import Contact from "./contact.jsx";
 
 class App extends Component{
   render(){
     return(
-      <div className="App">
-         <h1>Simple SPA</h1>
-         <ul className="header">
-           <li><a href="/">Projects</a></li>
-           <li><a href="/personal">Personal</a></li>
-           <li><a href="/about">About</a></li>
-           <li><a href="/contact">Contact</a></li>
-         </ul>
-         <div className="content">
-
-         </div>
-      </div>
+      <HashRouter>
+        <div className="App">
+           <h1>Simple SPA</h1>
+           <ul className="header">
+            <li><NavLink to="/">Projects</NavLink></li>
+            <li><NavLink to="/personal">Personal</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/contact">Contact</NavLink></li>
+           </ul>
+           <div className="content">
+            <Route path="/" component={Projects}/>
+            <Route path="/personal" component={Personal}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+           </div>
+        </div>
+      </HashRouter>
     );
   }
 }

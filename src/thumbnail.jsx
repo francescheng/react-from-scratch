@@ -1,6 +1,7 @@
+import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
-import './stylesheets/app.scss';
+import './App.scss';
 
 function Thumbnail(props) {
   return (
@@ -16,4 +17,4 @@ function Thumbnail(props) {
   );
 }
 
-export default Thumbnail;
+export default hot(Thumbnail);
