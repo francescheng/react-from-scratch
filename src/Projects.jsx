@@ -1,7 +1,6 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 import Thumbnail from './thumbnail.jsx';
-import './App.scss';
 import img from './images/mushroom.jpg';
 
 function Projects(props) {

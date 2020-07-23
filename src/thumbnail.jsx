@@ -1,7 +1,6 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
-import './App.scss';
 
 function Thumbnail(props) {
   return (

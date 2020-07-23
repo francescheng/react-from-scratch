@@ -1,6 +1,6 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component} from "react";
-import "./App.scss";
+import "../assets/stylesheets/application.scss";
 import {
   Route,
   NavLink,
