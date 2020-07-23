@@ -19,13 +19,11 @@ class App extends Component{
           <div className="container">
              <ul className="header">
               <li><NavLink to="/">Projects</NavLink></li>
-              <li><NavLink to="/personal">Personal</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
               <li><NavLink to="/contact">Contact</NavLink></li>
              </ul>
              <div className="content">
               <Route exact path="/" component={Projects}/>
-              <Route path="/personal" component={Personal}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
              </div>
