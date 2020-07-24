@@ -1,12 +1,12 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 import Thumbnail from './thumbnail.jsx';
-import img from './images/mushroom.jpg';
-import cat from './images/cat.jpg';
-import logo from './images/logo.jpg';
-import manny from './images/manny.jpg';
-import selfie from './images/selfie.jpg';
-import face from './images/face.jpg';
+import img from '../assets/images/mushroom.jpg';
+import cat from '../assets/images/cat.jpg';
+import logo from '../assets/images/logo.jpg';
+import manny from '../assets/images/manny.jpg';
+import selfie from '../assets/images/selfie.jpg';
+import face from '../assets/images/face.jpg';
 
 function Projects(props) {
   return (

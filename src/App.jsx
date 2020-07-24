@@ -1,5 +1,6 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component} from "react";
+import ScriptTag from 'react-script-tag';
 import "../assets/stylesheets/application.scss";
 import {
   Route,
@@ -28,6 +29,7 @@ class App extends Component{
               <Route path="/contact" component={Contact}/>
              </div>
           </div>
+          <ScriptTag type="text/javascript" src="./javascripts/application.js" />
         </div>
       </HashRouter>
     );
