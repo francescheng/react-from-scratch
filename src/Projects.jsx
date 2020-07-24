@@ -10,10 +10,10 @@ import face from './images/face.jpg';
 
 function Projects(props) {
   return (
-    <div class="grid">
+    <div className="grid">
       <div className="content">
         <Thumbnail
-        class="project"
+        className="project"
         link=""
         image={img}
         project-title=""
@@ -22,7 +22,7 @@ function Projects(props) {
       </div>
       <div className="content">
         <Thumbnail
-        class="project"
+        className="project"
         link=""
         image={cat}
         title=""
@@ -32,7 +32,7 @@ function Projects(props) {
 
       <div className="content">
         <Thumbnail
-        class="project"
+        className="project"
         link=""
         image={manny}
         title=""
@@ -42,7 +42,7 @@ function Projects(props) {
 
       <div className="content">
         <Thumbnail
-        class="project"
+        className="project"
         link=""
         image={selfie}
         title=""
@@ -52,7 +52,7 @@ function Projects(props) {
 
       <div className="content">
         <Thumbnail
-        class="project"
+        className="project"
         link=""
         image={logo}
         title=""
