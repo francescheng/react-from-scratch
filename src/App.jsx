@@ -29,7 +29,6 @@ class App extends Component{
               <Route path="/contact" component={Contact}/>
              </div>
           </div>
-          <ScriptTag type="text/javascript" src="./javascripts/application.js" />
         </div>
       </HashRouter>
     );

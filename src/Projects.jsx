@@ -11,6 +11,8 @@ import face from '../assets/images/face.jpg';
 function Projects(props) {
   return (
     <div className="grid">
+
+    <div className="item">
       <div className="content">
         <Thumbnail
         className="project"
@@ -20,6 +22,9 @@ function Projects(props) {
         category=""
         />
       </div>
+    </div>
+
+    <div className="item">
       <div className="content">
         <Thumbnail
         className="project"
@@ -29,7 +34,9 @@ function Projects(props) {
         category=""
         />
       </div>
+    </div>
 
+    <div className="item">
       <div className="content">
         <Thumbnail
         className="project"
@@ -39,7 +46,9 @@ function Projects(props) {
         category=""
         />
       </div>
+    </div>
 
+    <div className="item">
       <div className="content">
         <Thumbnail
         className="project"
@@ -49,7 +58,9 @@ function Projects(props) {
         category=""
         />
       </div>
+    </div>
 
+    <div className="item">
       <div className="content">
         <Thumbnail
         className="project"
@@ -59,6 +70,8 @@ function Projects(props) {
         category=""
         />
       </div>
+    </div>
+
     </div>
   )
 }
