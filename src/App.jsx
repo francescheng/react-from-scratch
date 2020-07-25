@@ -11,6 +11,8 @@ import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
 import About from "./about.jsx";
 import Contact from "./contact.jsx";
+import temp from '../assets/images/clarify.png';
+
 
 class App extends Component{
   render(){
@@ -18,16 +20,30 @@ class App extends Component{
       <HashRouter>
         <div className="App">
           <div className="container">
-             <ul className="header">
-              <li><NavLink to="/">Projects</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-             </ul>
-             <div className="content">
+          <div className="page-content">
+            <div className="header">
+              <div className="logo">
+                <img src={temp} alt="temp logo"/>
+              </div>
+               <ul className="navbar">
+                <li><NavLink to="/">Projects</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
+               </ul>
+            </div>
+            <div className="content">
               <Route exact path="/" component={Projects}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
-             </div>
+            </div>
+          </div>
+            <footer id="footer">
+              <ul>
+                <li>Github</li>
+                <li>Twitter</li>
+                <li>LinkedIn</li>
+              </ul>
+            </footer>
           </div>
         </div>
       </HashRouter>
