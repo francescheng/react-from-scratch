@@ -3,8 +3,8 @@ import React, { Component } from "react";
 
 function About(props) {
   return (
-    <div>
-      <h1>About</h1>
+    <div className="about-info">
+      <h3>Hi, I’m Frances Cheng</h3>
     </div>
   )
 }
