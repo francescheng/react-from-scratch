@@ -1,7 +1,7 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component} from "react";
 import ScriptTag from 'react-script-tag';
-import "../assets/stylesheets/application.scss";
+import "../assets/stylesheets/style.scss";
 import {
   Route,
   NavLink,
@@ -11,8 +11,13 @@ import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
 import About from "./about.jsx";
 import Contact from "./contact.jsx";
-import temp from '../assets/images/clarify.png';
-
+import logo from '../assets/images/logo.png';
+import succ1 from '../assets/images/succulents-01.png'
+import succ2 from '../assets/images/succulents-02.png'
+import succ3 from '../assets/images/succulents-03.png'
+import succ4 from '../assets/images/succulents-04.png'
+import succ5 from '../assets/images/succulents-05.png'
+import succ6 from '../assets/images/succulents-06.png'
 
 class App extends Component{
   render(){
@@ -22,13 +27,13 @@ class App extends Component{
           <div className="container">
           <div className="page-content">
             <div className="header">
-              <div className="logo">
-                <img src={temp} alt="temp logo"/>
+              <div className="logo-container">
+                <NavLink to="/"><img src={logo} class="logo" alt="logo"/></NavLink>
               </div>
                <ul className="navbar">
-                <li><NavLink to="/">Projects</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to="/">WORK</NavLink></li>
+                <li><NavLink to="/about">ABOUT</NavLink></li>
+                <li><NavLink to="/contact">CONTACT</NavLink></li>
                </ul>
             </div>
             <div className="content">
@@ -38,11 +43,27 @@ class App extends Component{
             </div>
           </div>
             <footer id="footer">
-              <ul>
-                <li>Github</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-              </ul>
+            <div className="zigzag"></div>
+            <div className="footer-info">
+              <div className="icons">
+                <img src={succ1} alt=""/>
+                <img src={succ2} alt=""/>
+                <img src={succ3} alt=""/>
+                <img src={succ4} alt=""/>
+                <img src={succ5} alt=""/>
+              </div>
+              <div className="footer-links">
+                <div>
+                  <a href="#">Github</a>
+                </div>
+                <div>
+                  <a href="#">LinkedIn</a>
+                </div>
+                <div>
+                  <a href="#">Copyright © 2020 Frances Cheng</a>
+                </div>
+              </div>
+            </div>
             </footer>
           </div>
         </div>

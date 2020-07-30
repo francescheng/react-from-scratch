@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Thumbnail from './thumbnail.jsx';
 import img from '../assets/images/mushroom.jpg';
 import cat from '../assets/images/cat.jpg';
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/logo.png';
 import manny from '../assets/images/manny.jpg';
 import selfie from '../assets/images/selfie.jpg';
 import face from '../assets/images/face.jpg';
@@ -65,7 +65,7 @@ function Projects(props) {
         <Thumbnail
         className="project"
         link=""
-        image={logo}
+        image={face}
         title=""
         category=""
         />
