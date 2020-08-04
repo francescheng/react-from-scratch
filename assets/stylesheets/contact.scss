@@ -1,9 +1,11 @@
 .grey-form h3 {
-  color: $grey;
+  color: $blue;
+  font-family: $serif-font;
+  font-weight: bold;
 }
 
-.grey-form h3 {
-  font-weight: bold;
+#red-email {
+  color: $red;
 }
 
 .grey-form {
@@ -25,11 +27,6 @@
   @include md {
     width: 48%;
   }
-}
-
-.grey-contact::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: $grey;
-  opacity: 1; /* Firefox */
 }
 
 .grey-contact {

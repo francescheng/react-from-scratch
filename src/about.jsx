@@ -4,7 +4,7 @@ import React, { Component } from "react";
 function About(props) {
   return (
     <div className="about-info">
-      <h3 id="hello">Hi, I’m Frances Cheng</h3>
+      <h3 class="hello">Hi, I’m Frances Cheng</h3>
 
       <div className="info-block">
         <div className="info-title">
