@@ -1,0 +1,96 @@
+.grey-form h3 {
+  text-align: center;
+  color: $grey;
+}
+
+.grey-form p {
+  text-align: center;
+}
+
+.grey-form h3 {
+  font-weight: bold;
+}
+
+.grey-form {
+  width: 90%;
+  margin: 64px auto;
+  @include md {
+    width: 70%;
+  }
+}
+
+.names {
+  @include md {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.names .name {
+  @include md {
+    width: 48%;
+  }
+}
+
+.grey-contact::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $grey;
+  opacity: 1; /* Firefox */
+}
+
+.grey-contact {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 8px;
+  height: 45px;
+  border: 3px solid $grey;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 255, 0.0);
+}
+
+.grey-contact:focus {
+  border: 3px solid $blue;
+}
+
+.grey-message {
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 8px;
+  height: 45px;
+  border: 3px solid $grey;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 255, 0.0);
+  height: 243px;
+}
+
+.grey-message:focus {
+  border: 3px solid $blue;
+}
+
+.grey-message::placeholder {
+  color: $grey;
+  opacity: 1;
+}
+
+.solid-grey-button {
+  margin: 0 auto;
+  background-color: $grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.solid-grey-button:hover {
+  background-color: #2E3C46;
+}
+
+ .hidden {
+  display: none;
+ }
+
+#home-submit-button {
+  text-align: center;
+}
