@@ -5,7 +5,8 @@ import "../assets/stylesheets/style.scss";
 import {
   Route,
   NavLink,
-  HashRouter
+  HashRouter,
+  Switch
 } from "react-router-dom";
 import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
@@ -29,18 +30,20 @@ class App extends Component{
           <div className="page-content">
             <div className="header">
               <div className="logo-container">
-                <NavLink to="/"><img src={logo} class="logo" alt="logo"/></NavLink>
+                <NavLink to="/work"><img src={logo} className="logo" alt="logo"/></NavLink>
               </div>
                <ul className="navbar">
-                <li><NavLink to="/">WORK</NavLink></li>
+                <li><NavLink to="/work">WORK</NavLink></li>
                 <li><NavLink to="/about">ABOUT</NavLink></li>
                 <li><NavLink to="/contact">CONTACT</NavLink></li>
                </ul>
             </div>
             <div className="content">
-              <Route exact path="/" component={Projects}/>
+            <Switch>
+              <Route path="/work" component={Projects}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
+            </Switch>
             </div>
           </div>
             <footer id="footer">

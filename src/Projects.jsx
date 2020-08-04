@@ -4,9 +4,11 @@ import Thumbnail from './thumbnail.jsx';
 import {
   Route,
   NavLink,
-  HashRouter
+  Switch,
+  useParams,
+  useRouteMatch
 } from "react-router-dom";
-import Ppf from "./ppfservices.jsx";
+// import Ppf from "./ppfservices.jsx";
 
 
 import img from '../assets/images/mushroom.jpg';
@@ -17,15 +19,15 @@ import selfie from '../assets/images/selfie.jpg';
 import face from '../assets/images/face.jpg';
 
 function Projects(props) {
+  let { path, url } = useRouteMatch();
   return (
-    <HashRouter>
-    <Route path="/ppfservices" component={Ppf} />
+    // <HashRouter>
       <div className="grid">
         <div className="item">
           <div className="content">
             <Thumbnail
             className="project"
-            link="/ppfservices"
+            link={`${url}/ppfservices`}
             image={img}
             project-title=""
             category=""
@@ -81,7 +83,7 @@ function Projects(props) {
           </div>
         </div>
       </div>
-    </HashRouter>
+    // </HashRouter>
   )
 }
 

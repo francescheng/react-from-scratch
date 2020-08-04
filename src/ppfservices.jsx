@@ -1,6 +1,8 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component } from "react";
 
+console.log("component did load");
+
 function Ppf(props) {
   return (
     <div>
