@@ -5,15 +5,15 @@ import Ppf from './ppfservices.jsx';
 
 function Thumbnail(props) {
   return (
-    <fragment className="project">
-      <NavLink to={props.link}>
-        <div className="project-image">
-          <img src={props.image} alt="Project Image"/>
-        </div>
-        <div className="project-title">{props.title}</div>
-        <div className="project-category">{props.category}</div>
-      </NavLink>
-    </fragment>
+      <div className="project">
+        <NavLink to={props.link}>
+          <div className="project-image">
+            <img src={props.image} alt="Project Image"/>
+          </div>
+          <div className="project-title">{props.title}</div>
+          <div className="project-category">{props.category}</div>
+        </NavLink>
+      </div>
   );
 }
 

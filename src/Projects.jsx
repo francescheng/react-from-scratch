@@ -6,7 +6,7 @@ import {
   NavLink,
   Switch,
   useParams,
-  useRouteMatch
+  useRouteMatch,
 } from "react-router-dom";
 // import Ppf from "./ppfservices.jsx";
 
@@ -82,6 +82,14 @@ function Projects(props) {
             />
           </div>
         </div>
+
+        <Switch>
+          <Route exact path={path}>
+          </Route>
+          <Route exact path={`${path}/:projectId`}>
+
+          </Route>
+        </Switch>
       </div>
     // </HashRouter>
   )
