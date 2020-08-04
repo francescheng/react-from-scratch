@@ -8,6 +8,10 @@
 
 #red-email {
   color: $red;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .grey-form {

@@ -6,7 +6,7 @@ function Contact(props) {
     <div>
       <div class="grey-form">
       <div className="hello">
-        <h3>Contact me at <span id="red-email">francesvcheng@gmail.com</span><br/>or send a message below</h3>
+        <h3>Contact me at <a id="red-email" href="mailto:francesvcheng@gmail.com">francesvcheng@gmail.com</a><br/>or send a message below</h3>
       </div>
         <form name="contact" method="POST" action="/thanks/">
           <input type="hidden" name="form-name" value="contact" />
