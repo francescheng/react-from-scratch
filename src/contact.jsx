@@ -9,16 +9,25 @@ function Contact(props) {
         <form name="contact" method="POST" action="/thanks/">
           <input type="hidden" name="form-name" value="contact" />
           <div class="names">
-            <input class="grey-contact name" type="text" id="fname" name="firstname" placeholder="First Name" required />
-            <input class="grey-contact name" type="text" id="lname" name="lastname" placeholder="Last Name" required />
+            <div class="name">
+              <h3>First Name</h3>
+              <input class="grey-contact" type="text" id="fname" name="firstname" placeholder="First Name" required />
+            </div>
+            <div class="name">
+              <h3>Last Name</h3>
+              <input class="grey-contact" type="text" id="lname" name="lastname" placeholder="Last Name" required />
+            </div>
           </div>
           <div>
+            <h3>Email</h3>
             <input class="grey-contact" type="email" id="email" name="email" placeholder="Email" required />
           </div>
           <div>
+            <h3>Subject</h3>
             <input class="grey-contact" type="text" id="subject" name="subject" placeholder="Subject" />
           </div>
           <div>
+            <h3>Message</h3>
             <textarea class="grey-message" name="message" placeholder="Your Message" required></textarea>
           </div>
           <div id="submit-button">
