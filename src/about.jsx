@@ -28,10 +28,10 @@ function About(props) {
 
       <div className="info-block">
         <div className="info-title">
-          <h3>My Background:</h3>
+          <h3>About Me:</h3>
         </div>
         <div className="info-des">
-          <p>I have a B.S. in Industrial Design and 5 years of design experience in product and graphic design. Currently I'm studying programming and computer science, and doing freelance web design and development projects. To find out more about my professional background please take a look at my <a href="https://www.linkedin.com/in/frances-cheng/">LinkedIn</a></p>
+          <p>I have a B.S. in Industrial Design and 5 years of design experience in product and graphic design. Currently I'm self-studying programming and computer science, and doing freelance web design and development projects. To find out more about my professional background please take a look at my <a href="https://www.linkedin.com/in/frances-cheng/">LinkedIn</a></p>
         </div>
       </div>
 

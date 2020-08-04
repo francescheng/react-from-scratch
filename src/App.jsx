@@ -11,6 +11,7 @@ import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
 import About from "./about.jsx";
 import Contact from "./contact.jsx";
+
 import logo from '../assets/images/logo.png';
 import succ1 from '../assets/images/succulents-01.png'
 import succ2 from '../assets/images/succulents-02.png'
