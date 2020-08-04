@@ -13,25 +13,25 @@ function About(props) {
           <h3>I'm a:</h3>
         </div>
         <div className="info-des">
-          <p>Developer, Designer, Illustrator, Photographer, and Learner</p>
+          <p>Developer, Designer, Illustrator, Photographer, Baking and Gardening Enthusiast, and living in the Bay Area looking for my next opportunity.</p>
         </div>
       </div>
 
       <div className="info-block">
         <div className="info-title">
-          <h3>I've worked at:</h3>
+          <h3>My skills:</h3>
         </div>
         <div className="info-des">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <p>Technologies: Ruby on Rails, HTML/CSS, JavaScript, PostgresSQL, React.js<br/>Design: Photoshop, Illustrator, InDesign, Lightroom, XD, User Research, UI/UX design<br/>Languages: English, Mandarin, French, Japanese</p>
         </div>
       </div>
 
       <div className="info-block">
         <div className="info-title">
-          <h3>In my spare time<br/>I like to:</h3>
+          <h3>My Background:</h3>
         </div>
         <div className="info-des">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <p>I have a B.S. in Industrial Design and 5 years of design experience in product and graphic design. Currently I'm studying programming and computer science, and doing freelance web design and development projects. To find out more about my professional background please take a look at my <a href="https://www.linkedin.com/in/frances-cheng/">LinkedIn</a></p>
         </div>
       </div>
 

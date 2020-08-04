@@ -54,13 +54,13 @@ class App extends Component{
               </div>
               <div className="footer-links">
                 <div>
-                  <a href="https://github.com/francescheng">Github</a>
+                  <a href="https://github.com/francescheng" target="_blank">Github</a>
                 </div>
                 <div>
-                  <a href="https://www.linkedin.com/in/frances-cheng/">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/frances-cheng/" target="_blank">LinkedIn</a>
                 </div>
                 <div>
-                  <a href="#">Copyright © 2020 Frances Cheng</a>
+                  <a href="https://www.francescheng.photo/" target="_blank">Personal</a>
                 </div>
               </div>
             </div>
