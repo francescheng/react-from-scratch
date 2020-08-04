@@ -2,6 +2,8 @@
   color: $blue;
   font-family: $serif-font;
   font-weight: bold;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
 }
 
 #red-email {
@@ -9,8 +11,8 @@
 }
 
 .grey-form {
-  width: 90%;
-  margin: 64px auto;
+  width: 80%;
+  margin: 1rem auto;
   @include md {
     width: 70%;
   }
@@ -31,7 +33,7 @@
 
 .grey-contact {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 1rem;
   padding: 8px;
   height: 45px;
   border: 3px solid $pink;
@@ -83,6 +85,6 @@
   display: none;
  }
 
-#home-submit-button {
+#submit-button {
   text-align: center;
 }
