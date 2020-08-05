@@ -5,13 +5,17 @@ import "../assets/stylesheets/style.scss";
 import {
   BrowserRouter,
   Route,
-  NavLink,
+  Link,
   Switch
 } from "react-router-dom";
 import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
 import About from "./about.jsx";
 import Contact from "./contact.jsx";
+import Clarify from "./clarify.jsx"
+import Ppf from "./ppfservices.jsx";
+import Matchbox from "./ppfservices.jsx";
+import Odaiba from "./ppfservices.jsx";
 
 import logo from '../assets/images/logo.png';
 import succ1 from '../assets/images/succulents-01.png'
@@ -40,9 +44,14 @@ class App extends Component{
             </div>
             <div className="content">
             <Switch>
-              <Route path="/work" component={Projects}/>
+              <Route exact path="/" component={Projects}/>
+              <Route exact path="/work" component={Projects}/>
               <Route path="/about" component={About}/>
               <Route path="/contact" component={Contact}/>
+              <Route exact path="/work/ppfservices" component={Ppf}/>
+              <Route exact path="/work/odaiba" component={Odaiba}/>
+              <Route exact path="/work/clarify" component={Clarify}/>
+              <Route exact path="/work/matchbox" component={Matchbox}/>
             </Switch>
             </div>
           </div>

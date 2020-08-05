@@ -17,14 +17,14 @@ import selfie from '../assets/images/selfie.jpg';
 import face from '../assets/images/face.jpg';
 
 function Projects(props) {
-  const { path } = useRouteMatch();
+
   return (
       <div className="grid">
         <div className="item">
           <div className="content">
             <Thumbnail
             className="project"
-            link={`${path}/ppfservices`}
+            link="/work/ppfservices"
             image={img}
             project-title=""
             category=""
@@ -36,7 +36,7 @@ function Projects(props) {
           <div className="content">
             <Thumbnail
             className="project"
-            link=""
+            link="/work/odaiba"
             image={cat}
             title=""
             category=""
@@ -48,7 +48,7 @@ function Projects(props) {
           <div className="content">
             <Thumbnail
             className="project"
-            link=""
+            link="/work/clarify"
             image={manny}
             title=""
             category=""
@@ -60,7 +60,7 @@ function Projects(props) {
           <div className="content">
             <Thumbnail
             className="project"
-            link=""
+            link="/work/matchbox"
             image={selfie}
             title=""
             category=""
@@ -68,23 +68,6 @@ function Projects(props) {
           </div>
         </div>
 
-        <div className="item">
-          <div className="content">
-            <Thumbnail
-            className="project"
-            link=""
-            image={face}
-            title=""
-            category=""
-            />
-          </div>
-        </div>
-
-        <Switch>
-          <Route exact path={`${path}/:projectId`}>
-            <Ppf />
-          </Route>
-        </Switch>
       </div>
   )
 }
