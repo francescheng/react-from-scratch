@@ -30,12 +30,12 @@ class App extends Component{
           <div className="page-content">
             <div className="header">
               <div className="logo-container">
-                <NavLink to="/work"><img src={logo} className="logo" alt="logo"/></NavLink>
+                <Link to="/work"><img src={logo} className="logo" alt="logo"/></Link>
               </div>
                <ul className="navbar">
-                <li><NavLink to="/work">WORK</NavLink></li>
-                <li><NavLink to="/about">ABOUT</NavLink></li>
-                <li><NavLink to="/contact">CONTACT</NavLink></li>
+                <li><Link to="/work">WORK</Link></li>
+                <li><Link to="/about">ABOUT</Link></li>
+                <li><Link to="/contact">CONTACT</Link></li>
                </ul>
             </div>
             <div className="content">

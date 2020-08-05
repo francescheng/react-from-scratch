@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Thumbnail from './thumbnail.jsx';
 import {
   Route,
-  NavLink,
   Switch,
   useParams,
   useRouteMatch,
