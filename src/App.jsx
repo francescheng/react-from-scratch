@@ -3,9 +3,9 @@ import React, { Component} from "react";
 import ScriptTag from 'react-script-tag';
 import "../assets/stylesheets/style.scss";
 import {
+  BrowserRouter,
   Route,
   NavLink,
-  HashRouter,
   Switch
 } from "react-router-dom";
 import Projects from "./Projects.jsx";
@@ -24,7 +24,7 @@ import succ6 from '../assets/images/succulents-06.png'
 class App extends Component{
   render(){
     return(
-      <HashRouter>
+      <BrowserRouter>
         <div className="App">
           <div className="container">
           <div className="page-content">
@@ -71,7 +71,7 @@ class App extends Component{
             </footer>
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

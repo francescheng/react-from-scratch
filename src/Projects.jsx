@@ -8,9 +8,8 @@ import {
   useParams,
   useRouteMatch,
 } from "react-router-dom";
-// import Ppf from "./ppfservices.jsx";
 
-
+import Ppf from "./ppfservices.jsx";
 import img from '../assets/images/mushroom.jpg';
 import cat from '../assets/images/cat.jpg';
 import logo from '../assets/images/logo.png';
@@ -19,15 +18,14 @@ import selfie from '../assets/images/selfie.jpg';
 import face from '../assets/images/face.jpg';
 
 function Projects(props) {
-  let { path, url } = useRouteMatch();
+  const { path } = useRouteMatch();
   return (
-    // <HashRouter>
       <div className="grid">
         <div className="item">
           <div className="content">
             <Thumbnail
             className="project"
-            link={`${url}/ppfservices`}
+            link={`${path}/ppfservices`}
             image={img}
             project-title=""
             category=""
@@ -84,14 +82,11 @@ function Projects(props) {
         </div>
 
         <Switch>
-          <Route exact path={path}>
-          </Route>
           <Route exact path={`${path}/:projectId`}>
-
+            <Ppf />
           </Route>
         </Switch>
       </div>
-    // </HashRouter>
   )
 }
 
