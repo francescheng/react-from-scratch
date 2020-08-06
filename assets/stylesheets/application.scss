@@ -111,3 +111,27 @@ max-width: 50vw;
 .project img {
   width: 100%;
 }
+
+.content:before,
+.content_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.a {
+  background-color: #4692E9;
+}
+
+.b {
+  background-color: #84b1b1;
+}
+
+.c {
+  background-color: #84b1b1;
+}
+
+.d {
+  background-color: #F2D06C;
+}

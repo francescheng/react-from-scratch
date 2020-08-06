@@ -9,30 +9,29 @@ import {
 } from "react-router-dom";
 
 import Ppf from "./ppfservices.jsx";
-import img from '../assets/images/mushroom.jpg';
+import ppfimage from '../assets/images/ppf-mockup.jpg';
 import cat from '../assets/images/cat.jpg';
 import logo from '../assets/images/logo.png';
-import manny from '../assets/images/manny.jpg';
-import selfie from '../assets/images/selfie.jpg';
-import face from '../assets/images/face.jpg';
+import clarifyimg from '../assets/images/clarify-screens.jpg';
+import matchimg from '../assets/images/matchbox-mockup.jpg';
 
 function Projects(props) {
 
   return (
       <div className="grid">
-        <div className="item">
+        <div className="item a">
           <div className="content">
             <Thumbnail
             className="project"
             link="/work/ppfservices"
-            image={img}
+            image={ppfimage}
             project-title=""
             category=""
             />
           </div>
         </div>
 
-        <div className="item">
+        <div className="item b">
           <div className="content">
             <Thumbnail
             className="project"
@@ -44,24 +43,24 @@ function Projects(props) {
           </div>
         </div>
 
-        <div className="item">
+        <div className="item c">
           <div className="content">
             <Thumbnail
             className="project"
             link="/work/clarify"
-            image={manny}
+            image={clarifyimg}
             title=""
             category=""
             />
           </div>
         </div>
 
-        <div className="item">
+        <div className="item d">
           <div className="content">
             <Thumbnail
             className="project"
             link="/work/matchbox"
-            image={selfie}
+            image={matchimg}
             title=""
             category=""
             />
