@@ -1,4 +1,5 @@
 {
+  "homepage": "http://francescheng.github.io/react-from-scratch",
   "name": "react-from-scratch",
   "version": "1.0.0",
   "description": "React portfolio from scratch",
@@ -6,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
