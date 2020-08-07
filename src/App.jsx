@@ -3,7 +3,6 @@ import React, { Component} from "react";
 import ScriptTag from 'react-script-tag';
 import "../assets/stylesheets/style.scss";
 import {
-  BrowserRouter,
   Route,
   Link,
   Switch
@@ -28,7 +27,6 @@ import succ6 from '../assets/images/succulents-06.png'
 class App extends Component{
   render(){
     return(
-      <BrowserRouter>
         <div className="App">
           <div className="container">
           <div className="page-content">
@@ -80,7 +78,6 @@ class App extends Component{
             </footer>
           </div>
         </div>
-      </BrowserRouter>
     );
   }
 }
