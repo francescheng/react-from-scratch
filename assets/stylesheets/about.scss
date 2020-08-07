@@ -28,9 +28,11 @@
 
 .tech {
   display: flex;
-  width: 100%;
+  max-width: 70%;
+  justify-content: space-between;
   p {
-
+    padding: 8px 16px;
+    background-color: $pink;
   }
 }
 
