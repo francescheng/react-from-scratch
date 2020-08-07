@@ -10,7 +10,7 @@ function Ppf(props) {
     <div className="img-desc">
       <img src={ppfimg} alt="PPF Services"/>
       <div className="desc">
-        <h3>PPF Services Website</h3>
+        <h3>PPF Services</h3>
         <p>A client needed a website designed and created for his landscaping and housekeeping company PPF Services so they could stand out from the competition and so potential customers could request quotes.</p>
         <div className="tech">
         <p>HTML</p>
