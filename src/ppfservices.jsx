@@ -14,9 +14,10 @@ function Ppf(props) {
         <p>A client needed a website designed and created for his landscaping and housekeeping company PPF Services so they could stand out from the competition and so potential customers could request quotes.</p>
         <div className="tech">
         <p>HTML</p>
+        <p>SASS</p>
         <p>JavaScript ES6</p>
         <p>Jekyll</p>
-        <p>SASS</p>
+        <p>Figma</p>
         </div>
       </div>
     </div>
