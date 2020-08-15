@@ -16,7 +16,6 @@ import clarifyimg from '../assets/images/clarify-screens.jpg';
 import matchimg from '../assets/images/matchbox-mockup.jpg';
 
 function Projects(props) {
-
   return (
       <div className="grid">
         <div className="item a">

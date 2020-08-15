@@ -7,6 +7,7 @@ import {
   Link,
   Switch
 } from "react-router-dom";
+
 import Projects from "./Projects.jsx";
 import Personal from "./personal.jsx";
 import About from "./about.jsx";
@@ -25,6 +26,14 @@ import succ5 from '../assets/images/succulents-05.png'
 import succ6 from '../assets/images/succulents-06.png'
 
 class App extends Component{
+
+  componentDidMount() {
+    const script = document.createElement("script");
+    script.src ="/javascripts/application.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }
+
   render(){
     return(
         <div className="App">
