@@ -14,8 +14,8 @@ import About from "./about.jsx";
 import Contact from "./contact.jsx";
 import Clarify from "./clarify.jsx"
 import Ppf from "./ppfservices.jsx";
-import Matchbox from "./ppfservices.jsx";
-import Odaiba from "./ppfservices.jsx";
+import Matchbox from "./matchbox.jsx";
+import Odaiba from "./odaiba.jsx";
 
 import logo from '../assets/images/logo.png';
 import succ1 from '../assets/images/succulents-01.png'
@@ -28,7 +28,7 @@ import succ6 from '../assets/images/succulents-06.png'
 class App extends Component{
 
   componentDidMount() {
-    const script = document.createElement("script");
+    const script = document.createElement('script');
     script.src ="/javascripts/application.js";
     script.async = true;
     document.body.appendChild(script);
