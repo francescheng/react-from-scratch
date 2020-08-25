@@ -1,6 +1,5 @@
 import { hot } from 'react-hot-loader/root';
 import React, { Component} from "react";
-import ScriptTag from 'react-script-tag';
 import "../assets/stylesheets/style.scss";
 import {
   Route,
