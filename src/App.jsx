@@ -54,7 +54,6 @@ class App extends Component{
               <Route exact path="/work/matchbox" component={Matchbox}/>
             </Switch>
             </div>
-            <ScriptTag type="text/javascript" src="application.js" />
           </div>
             <footer id="footer">
             <div className="zigzag"></div>
