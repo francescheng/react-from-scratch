@@ -10,8 +10,7 @@ import {
 
 import Ppf from "./ppfservices.jsx";
 import ppfimage from '../assets/images/ppf-mockup.jpg';
-import cat from '../assets/images/cat.jpg';
-import logo from '../assets/images/logo.png';
+import odaiba from '../assets/images/odaiba.JPG';
 import clarifyimg from '../assets/images/clarify-screens.jpg';
 import matchimg from '../assets/images/matchbox-mockup.jpg';
 
@@ -35,7 +34,7 @@ function Projects(props) {
             <Thumbnail
             className="project"
             link="/work/odaiba"
-            image={cat}
+            image={odaiba}
             title=""
             category=""
             />
