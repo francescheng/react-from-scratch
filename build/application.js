@@ -13,7 +13,7 @@ function resizeAllGridItems(){
    }
 }
 
-window.onload = resizeAllGridItems();
+window.addEventListener("load", resizeAllGridItems);
 
 window.addEventListener("resize", resizeAllGridItems);
 
