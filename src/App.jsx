@@ -27,13 +27,6 @@ import succ6 from '../assets/images/succulents-06.png'
 
 class App extends Component{
 
-  componentDidMount() {
-    const script = document.createElement('script');
-    script.src ="/javascripts/application.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }
-
   render(){
     return(
         <div className="App">
@@ -61,6 +54,7 @@ class App extends Component{
               <Route exact path="/work/matchbox" component={Matchbox}/>
             </Switch>
             </div>
+            <ScriptTag type="text/javascript" src="application.js" />
           </div>
             <footer id="footer">
             <div className="zigzag"></div>
