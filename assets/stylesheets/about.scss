@@ -35,6 +35,14 @@
   }
 }
 
+.full-desc {
+  width: 100%;  
+  padding: 2rem;
+}
+.full-img {
+  width: 100%;
+}
+
 .tech {
   display: flex;
   flex-wrap: wrap;
@@ -46,6 +54,17 @@
   }
 }
 
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .screens {
+    padding: 16px;
+    @include md {
+      max-width: 20%;
+    }
+  }
+}
 .info-block {
   display: flex;
 }
