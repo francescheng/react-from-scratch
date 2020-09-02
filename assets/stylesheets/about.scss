@@ -15,14 +15,22 @@
 }
 
 .img-desc {
-  display: flex;
+  @include md {
+    display: flex;
+  }
   // background-color: white;
   img {
-    width: 50%;
+    width: 100%;
+    @include md {
+      width: 50%;
+    }
   }
   .desc {
-    padding: 2rem;
-    width: 50%;
+    width: 100%;
+    @include md {
+      padding: 2rem;
+      width: 50%;
+    }
   }
 }
 
