@@ -8,7 +8,7 @@ function Contact(props) {
       <div className="hello">
         <h3>Contact me at <a id="red-email" href="mailto:francesvcheng@gmail.com">francesvcheng@gmail.com</a><br/>or send a message below</h3>
       </div>
-        <form name="contact" method="POST" netlify>
+        <form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <div className="names">
             <div className="name">

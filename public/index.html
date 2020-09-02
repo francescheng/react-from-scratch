@@ -25,6 +25,15 @@
 </head>
 
 <body>
+
+  <form name="contact" method="POST" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstname" required />
+      <input type="text" name="lastname" required />
+      <input type="email" name="email" required />
+      <input type="text" name="subject" />
+      <textarea name="message" required></textarea>
+  </form>
+
   <div id="root"></div>
   <noscript>
     You need to enable JavaScript to run this app.
