@@ -17,6 +17,31 @@ import matchimg from '../assets/images/matchbox-mockup.jpg';
 function Projects(props) {
   return (
       <div className="grid">
+
+      <div className="item c">
+          <div className="content">
+            <Thumbnail
+            className="project"
+            link="/work/clarify"
+            image={clarifyimg}
+            title=""
+            category=""
+            />
+          </div>
+        </div>
+
+        <div className="item d">
+          <div className="content">
+            <Thumbnail
+            className="project"
+            link="/work/matchbox"
+            image={matchimg}
+            title=""
+            category=""
+            />
+          </div>
+        </div>
+
         <div className="item a">
           <div className="content">
             <Thumbnail
@@ -41,29 +66,7 @@ function Projects(props) {
           </div>
         </div>
 
-        <div className="item c">
-          <div className="content">
-            <Thumbnail
-            className="project"
-            link="/work/clarify"
-            image={clarifyimg}
-            title=""
-            category=""
-            />
-          </div>
-        </div>
 
-        <div className="item d">
-          <div className="content">
-            <Thumbnail
-            className="project"
-            link="/work/matchbox"
-            image={matchimg}
-            title=""
-            category=""
-            />
-          </div>
-        </div>
 
       </div>
   )
